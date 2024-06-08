@@ -47,6 +47,7 @@ The results include:
 Clustering: Visualization of clusters showing different groups of respondents based on their learning habits, experience, and income.
 Classification: Accuracy and performance metrics for different models in predicting high-income respondents.
 Feature Importance: Ranking of features based on their importance in the Random Forest model.
+
 Dependencies
 To run this analysis, you need the following Python libraries:
 
@@ -55,15 +56,8 @@ numpy
 seaborn
 matplotlib
 scikit-learn
-Install them using pip if they are not already installed:
 
-bash
-Copy code
-pip install pandas numpy seaborn matplotlib scikit-learn
-Usage
 Prepare the Data: Ensure the survey data CSV file is correctly placed in the specified directory.
 Run the Analysis: Execute the main analysis script. It will process the data, perform EDA, clustering, and classification, and generate visualizations.
-python
-Copy code
 python analysis_script.py
 Inspect the Results: Review the generated plots and printed evaluation metrics to understand the findings from the survey data.
